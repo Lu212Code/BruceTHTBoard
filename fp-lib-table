@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "CBB")(type "KiCad")(uri "${KIPRJMOD}/CBB.pretty")(options "")(descr "Bruce Board Module Footprints"))
+)

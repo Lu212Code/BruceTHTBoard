@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CBB")(type "KiCad")(uri "${KIPRJMOD}/CBB.kicad_sym")(options "")(descr "Bruce Board Module"))
+)
