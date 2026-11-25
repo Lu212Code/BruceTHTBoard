@@ -3646,6 +3646,183 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -5288,7 +5465,7 @@
 	)
 	(wire
 		(pts
-			(xy 150.16 118.11) (xy 150.16 120.65)
+			(xy 149.86 118.11) (xy 149.86 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5548,7 +5725,7 @@
 	)
 	(wire
 		(pts
-			(xy 140 118.11) (xy 140 120.65)
+			(xy 138.43 118.11) (xy 138.43 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5708,7 +5885,7 @@
 	)
 	(wire
 		(pts
-			(xy 150.16 110.49) (xy 150.16 107.95)
+			(xy 149.86 110.49) (xy 149.86 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5788,7 +5965,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.16 67.31) (xy 280.16 69.85)
+			(xy 280.67 67.31) (xy 280.67 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5908,7 +6085,7 @@
 	)
 	(wire
 		(pts
-			(xy 140 110.49) (xy 140 107.95)
+			(xy 138.43 110.49) (xy 138.43 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5988,7 +6165,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.16 59.69) (xy 280.16 57.15)
+			(xy 280.67 55.88) (xy 280.67 59.69)
 		)
 		(stroke
 			(width 0)
@@ -7410,7 +7587,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 150.16 120.65 0)
+		(at 149.86 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7420,7 +7597,7 @@
 		(dnp no)
 		(uuid "0dc8ad0d-b575-424a-9ba4-ff2a46801198")
 		(property "Reference" "#PWR021"
-			(at 150.16 120.65 0)
+			(at 149.86 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7430,8 +7607,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 150.16 125.15 0)
+		(property "Value" "GND_RF"
+			(at 149.86 125.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7441,7 +7618,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 150.16 120.65 0)
+			(at 149.86 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7452,7 +7629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 150.16 120.65 0)
+			(at 149.86 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7463,7 +7640,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 150.16 120.65 0)
+			(at 149.86 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7639,6 +7816,88 @@
 			(project "CBB"
 				(path "/42641b5b-dbff-4b2c-9f09-95bbd551dbee"
 					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 149.86 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13cfb773-2bdd-40d1-8f29-3a3243f1217d")
+		(property "Reference" "C2"
+			(at 153.67 112.1409 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 153.67 114.6809 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 150.8252 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 149.86 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1849fbab-694e-4d59-91ee-a036d7deb48e")
+		)
+		(pin "1"
+			(uuid "3ae21dd4-034d-424f-8f98-16e18ae8c088")
+		)
+		(instances
+			(project "CBB"
+				(path "/42641b5b-dbff-4b2c-9f09-95bbd551dbee"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -8567,84 +8826,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 150.16 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "30d96420-ef70-4711-b53e-59546d047651")
-		(property "Reference" "C2"
-			(at 153.66 112.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 153.66 115.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-			(at 150.16 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 150.16 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 150.16 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1552cde1-f4d8-47be-afdf-514ae7d0dd58")
-		)
-		(pin "2"
-			(uuid "ba0fc021-7056-4036-83de-685f4ef4574d")
-		)
-		(instances
-			(project "CBB"
-				(path "/42641b5b-dbff-4b2c-9f09-95bbd551dbee"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 228.6 267.97 0)
 		(unit 1)
@@ -8742,7 +8923,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V3_RF''"
 			(at 270 52.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9182,7 +9363,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 280.16 57.15 0)
+		(at 280.67 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9192,7 +9373,7 @@
 		(dnp no)
 		(uuid "446c8706-b823-45e6-a66a-4cb5521b1eb8")
 		(property "Reference" "#PWR024"
-			(at 280.16 57.15 0)
+			(at 280.67 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9202,8 +9383,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 280.16 52.65 0)
+		(property "Value" "+3V3_RF'"
+			(at 280.67 51.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9213,7 +9394,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 280.16 57.15 0)
+			(at 280.67 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9224,7 +9405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.16 57.15 0)
+			(at 280.67 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9235,7 +9416,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 280.16 57.15 0)
+			(at 280.67 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9251,6 +9432,88 @@
 			(project "CBB"
 				(path "/42641b5b-dbff-4b2c-9f09-95bbd551dbee"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 280.67 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bd4f148-0e29-43bc-a9c9-dcba436bc77e")
+		(property "Reference" "C7"
+			(at 284.48 61.3409 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 284.48 63.8809 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 281.6352 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 280.67 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d88667d-ee11-422f-9157-e39deda10f6a")
+		)
+		(pin "2"
+			(uuid "cab68234-cd14-4ecc-86e4-d29bf2ea617e")
+		)
+		(instances
+			(project "CBB"
+				(path "/42641b5b-dbff-4b2c-9f09-95bbd551dbee"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -9728,6 +9991,82 @@
 			(project "CBB"
 				(path "/42641b5b-dbff-4b2c-9f09-95bbd551dbee"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 138.43 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5aca1cae-9ecb-4507-bfd4-1f912e424a07")
+		(property "Reference" "#PWR062"
+			(at 138.43 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_RF'"
+			(at 138.43 103.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e1c45349-896b-4ffc-b0bb-de8e93db1cf2")
+		)
+		(instances
+			(project "CBB"
+				(path "/42641b5b-dbff-4b2c-9f09-95bbd551dbee"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -10609,7 +10948,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+5V"
 			(at 255 85.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10734,82 +11073,6 @@
 			(project "CBB"
 				(path "/42641b5b-dbff-4b2c-9f09-95bbd551dbee"
 					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 150.16 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "77055268-52c2-4ae3-b42d-3440137a7f64")
-		(property "Reference" "#PWR020"
-			(at 150.16 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 150.16 103.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 150.16 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 150.16 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 150.16 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ff3d2fd5-021f-47d6-ac83-3e35cbb87d5f")
-		)
-		(instances
-			(project "CBB"
-				(path "/42641b5b-dbff-4b2c-9f09-95bbd551dbee"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -11285,7 +11548,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 140 120.65 0)
+		(at 138.43 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11295,7 +11558,7 @@
 		(dnp no)
 		(uuid "85b4f108-3c29-4cb2-ac8b-037eba5a64d2")
 		(property "Reference" "#PWR019"
-			(at 140 120.65 0)
+			(at 138.43 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11305,8 +11568,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 140 125.15 0)
+		(property "Value" "GND_RF"
+			(at 138.43 125.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11316,7 +11579,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140 120.65 0)
+			(at 138.43 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11327,7 +11590,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140 120.65 0)
+			(at 138.43 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11338,7 +11601,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140 120.65 0)
+			(at 138.43 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11432,6 +11695,82 @@
 			(project "CBB"
 				(path "/42641b5b-dbff-4b2c-9f09-95bbd551dbee"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 149.86 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9491623e-1eac-4fea-a8ac-6f1d16639f99")
+		(property "Reference" "#PWR020"
+			(at 149.86 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_RF''"
+			(at 149.86 103.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a4c03cd5-e63b-47e5-b016-1eb076260882")
+		)
+		(instances
+			(project "CBB"
+				(path "/42641b5b-dbff-4b2c-9f09-95bbd551dbee"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -12098,7 +12437,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 140 114.3 0)
+		(at 138.43 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12108,7 +12447,7 @@
 		(dnp no)
 		(uuid "ac422e5b-7382-4f0c-ac96-b4e2c4b882b0")
 		(property "Reference" "C1"
-			(at 143.5 112.8 0)
+			(at 141.93 112.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12118,7 +12457,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 143.5 115.8 0)
+			(at 141.93 115.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12128,7 +12467,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
-			(at 140 114.3 0)
+			(at 138.43 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12139,7 +12478,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140 114.3 0)
+			(at 138.43 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12150,7 +12489,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140 114.3 0)
+			(at 138.43 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12477,82 +12816,6 @@
 			(project "CBB"
 				(path "/42641b5b-dbff-4b2c-9f09-95bbd551dbee"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 140 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b84c3dce-484c-4403-9846-05490519ed06")
-		(property "Reference" "#PWR018"
-			(at 140 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 140 103.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 140 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eb0160a4-56c5-473b-8ac6-3b92c9f4dbb5")
-		)
-		(instances
-			(project "CBB"
-				(path "/42641b5b-dbff-4b2c-9f09-95bbd551dbee"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -13310,84 +13573,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 280.16 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d1ab9eac-a9c4-4632-bc03-7d46a941043d")
-		(property "Reference" "C4"
-			(at 283.66 62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 283.66 65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-			(at 280.16 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 280.16 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 280.16 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "edaf9285-8198-45c7-85a3-2546c0744afa")
-		)
-		(pin "2"
-			(uuid "b50fb60c-f0ea-400b-974c-e685bcc5a6a4")
-		)
-		(instances
-			(project "CBB"
-				(path "/42641b5b-dbff-4b2c-9f09-95bbd551dbee"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
 		(at 360.68 195.58 0)
 		(unit 1)
@@ -13660,7 +13845,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GND_RF"
 			(at 270 74.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14520,7 +14705,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 280.16 69.85 0)
+		(at 280.67 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14530,7 +14715,7 @@
 		(dnp no)
 		(uuid "e7cfb673-9370-4801-ab5f-12a1cebf658f")
 		(property "Reference" "#PWR025"
-			(at 280.16 69.85 0)
+			(at 280.67 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14540,8 +14725,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 280.16 74.35 0)
+		(property "Value" "GND_RF"
+			(at 280.67 74.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14551,7 +14736,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 280.16 69.85 0)
+			(at 280.67 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14562,7 +14747,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.16 69.85 0)
+			(at 280.67 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14573,7 +14758,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 280.16 69.85 0)
+			(at 280.67 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
