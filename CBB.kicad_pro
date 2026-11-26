@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 2.1,
-          "width": 2.1
+          "drill": 0.8,
+          "height": 2.5,
+          "width": 2.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -76,7 +76,39 @@
           ""
         ],
         [
+          "courtyards_overlap|-20290000|148815000|6eab2923-799b-462e-9e77-ddf75bf84e06|aac487db-d60a-4ee0-8764-61505c4edcff",
+          ""
+        ],
+        [
+          "courtyards_overlap|-20290000|148815000|aac487db-d60a-4ee0-8764-61505c4edcff|f6293be7-b4e2-4bd0-a318-c45667cc6437",
+          ""
+        ],
+        [
+          "courtyards_overlap|-23905000|148365000|6eab2923-799b-462e-9e77-ddf75bf84e06|f6293be7-b4e2-4bd0-a318-c45667cc6437",
+          ""
+        ],
+        [
+          "courtyards_overlap|-44675000|147545000|60591ad3-f7d7-4e83-b3a0-eda82b1b42f8|6eab2923-799b-462e-9e77-ddf75bf84e06",
+          ""
+        ],
+        [
           "courtyards_overlap|-44675000|200203000|60fa4375-ce3d-4518-9535-86be28190370|9c027d9f-d2a2-475f-b362-299dfa064123",
+          ""
+        ],
+        [
+          "courtyards_overlap|25175000|117635000|2988416a-80ee-4626-9e9f-0e8028517765|ebedfd6f-0c4b-4df2-84b5-360414ce1aef",
+          ""
+        ],
+        [
+          "courtyards_overlap|55730000|146080000|820b2b8d-0596-4f80-a4b5-fdddf554f3e1|c0b7b4d0-381c-453c-863e-5e08e3abb426",
+          ""
+        ],
+        [
+          "courtyards_overlap|60287099|146080000|c0b7b4d0-381c-453c-863e-5e08e3abb426|e6cee9e7-ce81-45e3-a687-688c489820d7",
+          ""
+        ],
+        [
+          "courtyards_overlap|64545000|153807500|43f73899-332f-4b74-b5fe-4776eddaeea4|e6cee9e7-ce81-45e3-a687-688c489820d7",
           ""
         ],
         [
@@ -84,7 +116,35 @@
           ""
         ],
         [
+          "pth_inside_courtyard|-12700000|149860000|a62e9424-3d01-4ad8-a463-139ce638f782|6eab2923-799b-462e-9e77-ddf75bf84e06",
+          ""
+        ],
+        [
           "pth_inside_courtyard|-12700000|201930000|ddbbd868-0254-4726-a06d-6cb05656fd54|040be66b-b126-4766-8f5f-652140a7c919",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|-18795000|149860000|ea195caf-63b1-4f7d-b4b8-a8e1b29c677c|6eab2923-799b-462e-9e77-ddf75bf84e06",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|-18795000|149860000|ea195caf-63b1-4f7d-b4b8-a8e1b29c677c|f6293be7-b4e2-4bd0-a318-c45667cc6437",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|-18795000|160020000|363eac11-3eb4-45e8-9c3f-b784f4e26556|6eab2923-799b-462e-9e77-ddf75bf84e06",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|-22860000|149860000|13ce6b6b-643a-4509-b669-e464119278d4|6eab2923-799b-462e-9e77-ddf75bf84e06",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|-43180000|148590000|437776b7-47b8-4f7f-bee2-035cecfc4eac|6eab2923-799b-462e-9e77-ddf75bf84e06",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|-43180000|158750000|e647daa0-c683-46c9-a34b-402636533c9c|6eab2923-799b-462e-9e77-ddf75bf84e06",
           ""
         ],
         [
@@ -93,6 +153,22 @@
         ],
         [
           "pth_inside_courtyard|-43180000|206248000|7b57cba4-11c2-4224-bd2c-38a5cdf2b296|9c027d9f-d2a2-475f-b362-299dfa064123",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|26670000|119380000|c2acbac4-35d3-4fbc-8880-ec6bc0d57152|ebedfd6f-0c4b-4df2-84b5-360414ce1aef",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|26670000|139130000|b04e6fb6-893b-421a-bd8e-b26419bf6a40|ebedfd6f-0c4b-4df2-84b5-360414ce1aef",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|60765000|147575000|6ccdbcac-025b-458f-9117-47649dada746|e6cee9e7-ce81-45e3-a687-688c489820d7",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|66040000|154852500|d6308a69-5eb1-4229-9f5a-b65be9c8a999|e6cee9e7-ce81-45e3-a687-688c489820d7",
           ""
         ],
         [
@@ -677,7 +753,7 @@
         "uuid": "42641b5b-dbff-4b2c-9f09-95bbd551dbee"
       }
     ],
-    "used_designators": "JP1-6,JP8-9,U1,#PWR18,#PWR31,#PWR33,#PWR35,#PWR37,#PWR47-58,#PWR63-65,J2-7",
+    "used_designators": "JP1-6,JP8-18,U1,#PWR18,#PWR31,#PWR33,#PWR35,#PWR37,#PWR47-58,#PWR63-67,J2-7",
     "variants": []
   },
   "sheets": [
